@@ -1,0 +1,595 @@
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+video {
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 10px;
+
+    @media only screen and (min-width: 1024px) {
+        scroll-padding: 80px;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--bs-font-family-base);
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.3px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* Colors */
+:root {
+    --bs-primary: #8B9B68;
+    --bs-primary-900: #F3F4E4;
+    --bs-white: #fff;
+    --bs-yellow-100: #FAF7EC;
+    --bs-yellow-200: #FAF7EA;
+    --bs-yellow-300: rgba(255, 246, 191, 0.20);
+
+    --bs-gray-100: #373737;
+    --bs-gray-200: #4F4F4F;
+
+    --bs-font-family-base: "Cormorant", serif;
+    --bs-font-family-secondary: "Poppins", sans-serif;
+}
+
+.text-white {
+    color: var(--bs-white) !important;
+}
+
+.text-yellow-100 {
+    color: var(--bs-yellow-100) !important;
+}
+
+.text-gray-100 {
+    color: var(--bs-gray-100) !important;
+}
+
+.text-gray-200 {
+    color: var(--bs-gray-200) !important;
+}
+
+.bg-yellow-300 {
+    background-color: var(--bs-yellow-300) !important;
+}
+
+.bg-primary-900 {
+    background-color: var(--bs-primary-900) !important;
+}
+
+.bg-yellow-200 {
+    background-color: var(--bs-yellow-200) !important;
+}
+
+.bg-white {
+    background-color: var(--bs-white) !important;
+}
+
+.bg-yellow-100 {
+    background-color: var(--bs-yellow-100) !important;
+}
+
+.bg-yellow-100 {
+    background-color: var(--bs-yellow-100) !important;
+}
+
+.bg-gray-100 {
+    background-color: var(--bs-gray-100) !important;
+}
+
+.bg-primary-900 {
+    background-color: var(--bs-primary-900) !important;
+}
+
+.bg-yellow-300 {
+    background-color: var(--bs-yellow-300) !important;
+}
+
+.bg-gray-200 {
+    background-color: var(--bs-gray-200) !important;
+}
+
+/* Bootstrap Modal Variables Override */
+.modal {
+    --bs-modal-width: 750px;
+}
+
+.font-secondary {
+    font-family: var(--bs-font-family-secondary) !important;
+}
+
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+header {
+    transition: all 0.4s ease;
+    
+    &.is-scroll {
+        background: rgba(250, 247, 233, 0.95);
+    }
+}
+
+.custom {
+    &Header {
+        display: grid;
+        grid-template-columns: 1fr 1fr auto 1fr 1fr;
+
+        &Mobile {
+            transform: translateX(100%);
+            transition: transform 0.3s ease-in-out;
+
+            &.active {
+                transform: translateX(0);
+            }
+        } 
+    }
+
+    &Section {
+        &Events {
+            &__bckg {
+                z-index: -1;
+            }
+
+            .mt-img {
+                width: 120px;
+                margin-top: -180px;
+
+                @media only screen and (min-width: 1200px) {
+                    width: auto;
+                }
+            }
+
+            .flowerVertical {
+                &Left {
+                    top: -300px;
+                }
+
+                &Right {
+                    top: -300px;
+                }
+            }
+        }
+
+        &Gallery {
+            @media only screen and (min-width: 1200px) {
+                transform: translateY(-100px);
+            }
+
+            &__bckg-2 {
+                z-index: -1;
+            }
+        }
+
+        &Cartagena {
+            background: rgba(250, 247, 236, 0.95);
+            box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
+        }
+
+        &Places {
+            &__swiper {
+                @media only screen and (min-width: 1200px) {
+                    transform: translateY(-230px);
+                }
+            }
+        }
+
+        &RSVP {
+            overflow: hidden;
+
+            @media only screen and (min-width: 1200px) {
+                overflow: visible;
+            }
+
+            &__content {
+                @media only screen and (min-width: 1200px) {
+                    transform: translateY(-200px);
+                }
+            }
+
+            .bg-primary-900 {
+                min-height: 300px;
+
+                @media only screen and (min-width: 1200px) {
+                    min-height: 600px;
+                }
+            }
+
+            .rsvpFlower {
+                &Left {
+                    top: 70px;
+                    left: -40px;
+                    width: 200px;
+
+                    @media only screen and (min-width: 1200px) {
+                        top:0;
+                        left: -60px;
+                        width: auto;
+                    }
+                }
+
+                &Right {
+                    top: 70px;
+                    right: -40px;
+                    width: 200px;
+
+                    @media only screen and (min-width: 1200px) {
+                        top:0;
+                        right: -60px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+
+        &Banner {
+            margin-top: 0;
+
+            @media only screen and (min-width: 1200px) {
+                margin-top: -146px;
+            }
+        }
+
+        &Cartagena {
+            &Places {
+                &__img {
+                    height: 240px;
+                    object-fit: cover;
+                }
+            }
+
+            &Hero {
+                padding: 150px 0 50px;
+
+                .textCartagena {
+                    width: 200px;
+
+                    @media only screen and (min-width: 1200px) {
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    &MainCartagena {
+        background-image: url(../../images/bckg-cartagena-repeat.png);
+        background-repeat: repeat;
+        background-position: center;
+
+        .icon {
+            width: 50px;
+            height: 50px;
+
+            img {
+                width: 100%;
+
+                @media only screen and (min-width: 1200px) {
+                    width: auto;
+                }
+            }
+
+            @media only screen and (min-width: 1200px) {
+                width: auto;
+                height: auto;
+            }
+        }
+
+
+    }
+
+}
+
+.line {
+    display: block;
+    height: 1px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--bs-primary);
+
+    &--small {
+        width: 60px;
+    }
+
+    &--big {
+        width: 100px;
+    }
+
+    &--full {
+        width: 100%;
+    }
+
+    &--left {
+        margin: 0;
+    }
+}
+
+.swiper {
+
+    &-button-next,
+    &-button-prev {
+        color: var(--bs-black-100);
+
+        &:after {
+            font-size: 24px;
+        }
+    }
+
+    &-pagination {
+        &-bullet {
+            background-color: var(--bs-primary);
+        }
+    }
+}
+
+.shadow {
+    &-1 {
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+    }
+}
+
+/* countdown */
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+    margin: 0 auto;
+    column-gap: 40px;
+
+    @media only screen and (min-width: 1200px) {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+}
+
+iframe {
+    height: 400px;
+
+    @media only screen and (min-width: 1200px) {
+        height: 600px;
+    }
+}
+
+.-mb-n140 {
+    margin-bottom: -140px;
+}
+
+/* rsvp */
+/* RSVP Form Styles */
+.rsvp-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    display: none;
+}
+
+/* Fallback styles cuando Bootstrap no está disponible */
+.rsvp-form-container.show {
+    display: flex !important;
+}
+
+/* Bootstrap modal compatibility */
+.rsvp-form-container.modal {
+    display: none;
+}
+
+.rsvp-form-container.modal.show {
+    display: flex !important;
+}
+
+.rsvp-form-modal {
+    max-width: 580px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.rsvp-form-step {
+    display: none;
+}
+
+.rsvp-form-step.active {
+    display: block;
+}
+
+.rsvp-btn.active {
+    background: var(--bs-primary) !important;
+    color: var(--bs-white-100) !important;
+    opacity: 1 !important;
+}
+
+.rsvp-loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+.rsvp-search-item {
+    cursor: pointer;
+}
+
+.position-xl-absolute {
+    @media only screen and (min-width: 1200px) {
+        position: absolute;
+    }
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+
+    @media only screen and (min-width: 1200px) {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.top-xl-0 {
+    @media only screen and (min-width: 1200px) {
+        top: 0;
+    }
+}
