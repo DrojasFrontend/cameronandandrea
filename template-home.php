@@ -22,7 +22,7 @@ get_header();
                             <img class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>main-logo-mobile.png" alt="Main logo">
                             <div class="pt-xl-5">
                                 <div class="pt-xl-5">
-                                    <div class="pt-xl-5">
+                                    <div class="pt-xl-5" id="wedding">
                                         <div class="position-relative px-xl-0 px-2 mt-xl-0 mt-5">
                                             <img class="w-100 h-100 object-fit-cover d-none d-xl-block" src="<?php echo THEME_IMG; ?>cameron-tarjeta-1.png" alt="Bg cameron 2">
                                             <img class="w-100 h-100 d-block d-xl-none mx-auto object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-tarjeta-1.png" alt="Bg cameron 2">
@@ -72,7 +72,7 @@ get_header();
     <section class="customSectionEvents position-relative">
         <img class="d-xl-block d-none position-absolute start-0 d-block z-0 flowerVerticalLeft" src="<?php echo THEME_IMG; ?>flower-vertical-left.webp" alt="cameron-fondo-verde-edit">
         <img class="d-xl-block d-none position-absolute end-0 d-block z-0 flowerVerticalRight" src="<?php echo THEME_IMG; ?>flower-vertical-right.webp" alt="cameron-fondo-verde-edit">
-        <div class="container-fluid gx-0 pb-xl-5">
+        <div class="container-fluid gx-0 pb-xl-5" id="events">
             <div class="row gx-0">
                 <div class="col-12">
                     <div class="pt-5">
@@ -226,7 +226,7 @@ get_header();
                 <div class="row gx-0">
                     <div class="col-12 col-xl-8 mx-auto px-xl-0 px-3">
                         <div class="pt-5 mt-xl-5">
-                            <div class="pt-xl-5 mt-xl-5">
+                            <div class="pt-xl-5 mt-xl-5" id="cartagena">
                                 <div class="customSectionCartagena position-relative p-xl-5 p-3">
                                     <div class="col-12 col-xl-10 mx-auto">
                                         <img class="d-none d-xl-block mx-auto mb-5" src="<?php echo THEME_IMG; ?>text-cartagena.svg" alt="">
@@ -239,7 +239,7 @@ get_header();
                                         </p>
                                         <ul class="d-flex flex-column gap-xl-3 gap-2 m-0 p-0 py-5 mt-xl-5">
                                             <li class="clickeable bg-white">
-                                                <a href="/travel-info" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
+                                                <a href="/cartagena/#travel-info" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
                                                     <span class="d-inline-block icon">
                                                         <img class="w-100" src="<?php echo THEME_IMG; ?>icons/icon-airplane.svg" alt="">
                                                     </span>
@@ -247,7 +247,7 @@ get_header();
                                                 </a>
                                             </li>
                                             <li class="clickeable bg-white">
-                                                <a href="/travel-info" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
+                                                <a href="/cartagena/#hotels" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
                                                     <span class="d-flex align-items-center justify-content-center icon">
                                                         <img class="w-100" src="<?php echo THEME_IMG; ?>icons/icon-hotel.svg" alt="">
                                                     </span>
@@ -255,7 +255,7 @@ get_header();
                                                 </a>
                                             </li>
                                             <li class="clickeable bg-white">
-                                                <a href="/travel-info" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
+                                                <a href="/cartagena/#restaurants" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
                                                     <span class="d-flex align-items-center justify-content-center icon">
                                                         <img class="w-100" src="<?php echo THEME_IMG; ?>icons/icon-restaurants.svg" alt="">
                                                     </span>
@@ -263,7 +263,7 @@ get_header();
                                                 </a>
                                             </li>
                                             <li class="clickeable bg-white">
-                                                <a href="/travel-info" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
+                                                <a href="/cartagena/#brunch" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
                                                     <span class="d-flex align-items-center justify-content-center icon">
                                                         <img class="w-100" src="<?php echo THEME_IMG; ?>icons/icon-brunch.svg" alt="">
                                                     </span>
@@ -271,7 +271,7 @@ get_header();
                                                 </a>
                                             </li>
                                             <li class="clickeable bg-white">
-                                                <a href="/travel-info" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
+                                                <a href="/cartagena/#bars" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
                                                     <span class="d-flex align-items-center justify-content-center icon">
                                                         <img class="w-100" src="<?php echo THEME_IMG; ?>icons/icon-bars.svg" alt="">
                                                     </span>
@@ -279,7 +279,7 @@ get_header();
                                                 </a>
                                             </li>
                                             <li class="clickeable bg-white">
-                                                <a href="/travel-info" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
+                                                <a href="/cartagena/#boutiques" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
                                                     <span class="d-flex align-items-center justify-content-center icon">
                                                         <img class="w-100" src="<?php echo THEME_IMG; ?>icons/icon-boutiques.svg" alt="">
                                                     </span>
@@ -287,7 +287,7 @@ get_header();
                                                 </a>
                                             </li>
                                             <li class="clickeable bg-white">
-                                                <a href="/travel-info" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
+                                                <a href="/cartagena/#beauty" class="d-flex align-items-center text-primary gap-4 fs-xl-2 fs-7 p-xl-3 p-2">
                                                     <span class="d-flex align-items-center justify-content-center icon">
                                                         <img class="w-100" src="<?php echo THEME_IMG; ?>icons/icon-beauty-salons.svg" alt="">
                                                     </span>
@@ -318,7 +318,7 @@ get_header();
         <?php get_template_part('template-parts/components/component-swiper-place'); ?>
     </div>
 
-    <section class="customSectionRSVP position-relative z-1 bg-yellow-300 py-xl-0 py-5">
+    <section class="customSectionRSVP position-relative z-1 bg-yellow-300 py-xl-0 py-5" id="rsvp">
         <div class="container">
             <div class="row">
                 <div class="customSectionRSVP__content col-12 col-xl-8 mx-auto position-relative">
@@ -327,7 +327,7 @@ get_header();
                     <div class="d-flex flex-column justify-content-center align-items-center bg-primary-900 p-5 text-center shadow-1">
                         <h2 class="fs-xl-1-medium fs-2 text-primary letter-spacing-xl-20 letter-spacing-96">R.S.V.P.</h2>
                         <p class="fs-p-big text-black letter-spacing-xl-36 mb-5">Kindly respond by <br class="d-block d-xl-none"> NOVEMBER 16th, 2025</p>
-                        <button class="btn btn-secondary border-0 mx-auto rsvp-open-btn" type="button">
+                        <button class="btn btn-secondary border-0 mx-auto rsvp-open-btn position-relative z-1" type="button">
                             R.S.V.P.
                         </button>
                     </div>

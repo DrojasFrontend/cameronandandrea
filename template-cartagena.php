@@ -7,9 +7,9 @@ get_header();
 
 $places = [
   "hotels" => [
-    "id" => "hoteles",
+    "id" => "hotels",
     "title" => "Hotels",
-    "title_es" => "Hoteles",
+    "title_es" => "Hotels",
     "img" => THEME_IMG . 'icons/icon-hotel.svg',
     "info" => "We welcome you to stay at any of the beautiful hotels or colonial homes in Cartagena has to offer. The bride and groom will be staying at the Charleston Santa Teresa for the guests who would like to join them.",
     "places" => [
@@ -145,9 +145,9 @@ $places = [
     ],
   ],
   "restaurants" => [
-    "id" => "restaurantes",
+    "id" => "restaurants",
     "title" => "Restaurants",
-    "title_es" => "Restaurantes",
+    "title_es" => "Restaurants",
     "img" => THEME_IMG . 'icons/icon-restaurants.svg',
     "places" => [
         [
@@ -265,9 +265,9 @@ $places = [
     ]
   ],
   "bars_pubs" => [
-    "id" => "bares",
+    "id" => "bars",
     "title" => "Bars & Pubs",
-    "title_es" => "BARES Y DISCOTECAS",
+    "title_es" => "BARS & PUBS",
     "img" => THEME_IMG . 'icons/icon-bars.svg',
     "places" => [
         [
@@ -321,9 +321,9 @@ $places = [
     ]
   ],
   "brunch_desserts" => [
-    "id" => "postres",
+    "id" => "brunch",
     "title" => "Brunch & Desserts",
-    "title_es" => "Brunch & Postres",
+    "title_es" => "Brunch & Desserts",
     "img" => THEME_IMG . 'icons/icon-brunch.svg',
     "places" => [
         [
@@ -395,7 +395,7 @@ $places = [
   "boutiques" => [
     "id" => "boutiques",
     "title" => "Boutiques",
-    "title_es" => "TIENDAS",
+    "title_es" => "Boutiques",
     "img" => THEME_IMG . 'icons/icon-boutiques.svg',
     "places" => [
         [
@@ -489,9 +489,9 @@ $places = [
     ]
   ],
   "salones_de_belleza" => [
-    "id" => "salones",
-    "title" => "BEAUTY SALONS",
-    "title_es" => "Salones de Belleza",
+    "id" => "beauty",
+    "title" => "Beauty Salons",
+    "title_es" => "Beauty Salons",
     "img" => THEME_IMG . 'icons/icon-beauty-salons.svg',
     "places" => [
         [
@@ -576,7 +576,7 @@ $places = [
             </div>
         </div>
     </section>
-    <section class="customSectionCartagenaPlaces pb-5">
+    <section class="customSectionCartagenaPlaces pb-5" id="travel-info">
         <div class="">
             <div class="container">
                 <div class="row">
