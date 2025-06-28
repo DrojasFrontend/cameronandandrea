@@ -25,8 +25,6 @@ const rsvpEvents = [
 
 // Datos de invitados (embebidos directamente)
 const invitedGuests = {
-    'Asil Kalkavan': ['Asil Kalkavan'],
-    'Amro Kayal': ['Amro Kayal', 'Rafeef Zahran', 'Abdallah Kayal'],
     'Cameron Faleri': ['Cameron Faleri', 'Paula Echeverry'],
     'Farisz Faleri': ['Farisz Faleri', 'Farisol Faleri'],
     'Elka Parsa': ['Elka Parsa', 'Cyam Parsa'],
