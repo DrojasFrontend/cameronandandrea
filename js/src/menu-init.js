@@ -9,6 +9,11 @@ $("[data-close-menu]").on("click", function () {
 	$(".customHeader li").removeClass("active");
 });
 
+$(".customHeaderMobile li a").on("click", function () {
+	$("[data-menu-mobile]").removeClass("active");
+	$(".customHeader li").removeClass("active");
+});
+
 let $header = $("header");
 
 $(window).scroll(function () {
