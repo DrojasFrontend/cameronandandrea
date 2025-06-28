@@ -564,12 +564,14 @@ $places = [
 ?>
 
 <main class="customMainCartagena">
-    <section class="customSectionCartagenaHero">
+    <section class="customSectionCartagenaHero position-relative">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="text-center">
-                        <img class="w-100" src="<?php echo THEME_IMG . 'flower-two.webp'; ?>" alt="cameron-fondo-verde-edit">
+                        <img class="w-100 d-none d-xl-block" src="<?php echo THEME_IMG . 'flower-two.webp'; ?>" alt="cameron-fondo-verde-edit">
+                        <img class="flowerTowLeft d-block d-xl-none position-absolute" src="<?php echo THEME_IMG . 'flower-two-mobile-left.webp'; ?>" alt="cameron-fondo-verde-edit">
+                        <img class="flowerTowRight d-block d-xl-none position-absolute" src="<?php echo THEME_IMG . 'flower-two-mobile-right.webp'; ?>" alt="cameron-fondo-verde-edit">
                         <img class="textCartagena" src="<?php echo THEME_IMG . 'text-cartagena.svg'; ?>" alt="cameron-fondo-verde-edit">
                     </div>
                 </div>
@@ -597,8 +599,8 @@ $places = [
                             <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Flight to Cartagena on the Caribbean coast.  Latam, Delta, American Airlines, United, Copa Airlines  and Avianca operate direct flights to the Rafael Nuñez Airport. The airport is a short 10-minutes taxi journey to the old town. There are authorized taxi services 24 hours. The rate to Getsemaní costs about $14.000 cop. To the hotel zone of the Historic Center (Ciudad Amurallada) about $14.000 cop and to the Bocagrande zone it costs $20.000 cop. Normally $1 USD is equivalent to $4.500 cop. </p>
                             <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">SECURITY IN CARTAGENA</h2>
                             <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Cartagena is a beautiful and safe destination for our celebration. The city is known for its welcoming atmosphere, and we want you to feel at ease as you join us for this special occasion. With a strong focus on tourism and hospitality, Cartagena offers a secure environment for all visitors. From the historic streets to the scenic beaches, we’re excited to share this incredible city with you, and we’re confident you'll feel right at home!</p>
-                            <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">GARTAGENANNY</h2>
-                            <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-5">For guests who may require it, here’s a trusted local nanny service to help with childcare. Please feel free to reach out to arrange childcare during the celebration. Special rates are available using the code MARYCUETER. Lili Rueda: +57 318 6294974.</p>
+                            <!-- <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">GARTAGENANNY</h2> -->
+                            <!-- <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-5">For guests who may require it, here’s a trusted local nanny service to help with childcare. Please feel free to reach out to arrange childcare during the celebration. Special rates are available using the code MARYCUETER. Lili Rueda: +57 318 6294974.</p> -->
                         </div>
                     </div>
                 </div>

@@ -45,7 +45,7 @@ get_header();
                                                         <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">CEREMONY</p>
                                                         <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">Patio Republicano</h2>
 
-                                                        <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">RECEPTION</p>
+                                                        <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">RECEPTION TO FOLLOW</p>
                                                         <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 pb-xl-5">Salón La Capilla</h2>
 
                                                         <div class="pt-4">
@@ -70,8 +70,11 @@ get_header();
     </section>
 
     <section class="customSectionEvents position-relative">
-        <img class="d-xl-block d-none position-absolute start-0 d-block z-0 flowerVerticalLeft" src="<?php echo THEME_IMG; ?>flower-vertical-left.webp" alt="cameron-fondo-verde-edit">
-        <img class="d-xl-block d-none position-absolute end-0 d-block z-0 flowerVerticalRight" src="<?php echo THEME_IMG; ?>flower-vertical-right.webp" alt="cameron-fondo-verde-edit">
+        <img class="d-xl-block d-none position-absolute d-block z-0 flowerVerticalLeft" src="<?php echo THEME_IMG; ?>flower-vertical-left.webp" alt="cameron-fondo-verde-edit">
+        <img class="d-xl-block d-none position-absolute d-block z-0 flowerVerticalRight" src="<?php echo THEME_IMG; ?>flower-vertical-right.webp" alt="cameron-fondo-verde-edit">
+
+        <img class="d-block position-absolute d-xl-none z-0 flowerVerticalLeft" src="<?php echo THEME_IMG; ?>flower-vertical-left-mobile.png" alt="cameron-fondo-verde-edit">
+        <img class="d-block position-absolute d-xl-none z-0 flowerVerticalRight" src="<?php echo THEME_IMG; ?>flower-vertical-right-mobile.png" alt="cameron-fondo-verde-edit">
         <div class="container-fluid gx-0 pb-xl-5" id="events">
             <div class="row gx-0">
                 <div class="col-12">
@@ -80,9 +83,10 @@ get_header();
                             <div class="pt-5 text-center">
                                 <img class="customSectionEvents__bckg position-absolute top-0 start-0 object-fit-cover w-100 h-100" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="cameron-fondo-verde-edit">
                                 <div class="position-relative pt-5">
-                                    <img width="242" height="122" class="" src="<?php echo THEME_IMG; ?>text-events.svg" alt="Text Event">
+                                    <img width="242" height="122" class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-events.svg" alt="Text Event">
+                                    <img width="180" class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-events.svg" alt="Text Event">
                                     <div class="line line--small mb-5 d-none d-xl-block" style="margin-top: -20px;"></div>
-                                    <div class="line line--small mb-5 d-block d-xl-none" style="margin-top: -10px;"></div>
+                                    <div class="line line--small mb-5 d-block d-xl-none" style="margin-top: 0px;"></div>
                                     <div class="py-5 mt-5">
                                         <div class="container">
                                             <div class="row">
@@ -113,8 +117,10 @@ get_header();
                                                     </div>
                                                 </div>
                                                 <div class="py-5 d-block d-xl-none"></div>
-                                                <div class="col-12 col-xl-6">
-                                                    <div class="shadow-1 pe-2 position-relative">
+                                                <div class="col-12 col-xl-6 position-relative">
+                                                <img class="d-block position-absolute d-xl-none z-0 flowerVerticalLeft flowerVerticalLeft2" src="<?php echo THEME_IMG; ?>flower-vertical-left-mobile.png" alt="cameron-fondo-verde-edit">
+                                                <img class="d-block position-absolute d-xl-none z-0 flowerVerticalRight flowerVerticalRight2" src="<?php echo THEME_IMG; ?>flower-vertical-right-mobile.png" alt="cameron-fondo-verde-edit">
+                                                    <div class="shadow-1 pe-2 position-relative z-2">
                                                         <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" src="<?php echo THEME_IMG; ?>box.webp" alt="cameron-event-1">
                                                         <div class="position-relative p-5">
                                                             <img src="<?php echo THEME_IMG; ?>barco.png" class="mt-img" alt="Copa">
