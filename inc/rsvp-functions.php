@@ -175,18 +175,17 @@ function sendGuestEmail($guest_name, $email) {
                         <div class="event-title">💒 CEREMONY</div>
                         <div class="event-details">
                             <strong>Date:</strong> January 16th, 2026<br>
-                            <strong>Time:</strong> 5:00 P.M.<br>
-                            <strong>Location:</strong> Patio Republicano<br>
-                            <strong>Dress Code:</strong> Black Tie
+                            <strong>Time:</strong> 5:00 pm<br>
+                            <strong>Location:</strong> Charleston Santa Teresa Hotel
                         </div>
                     </div>
                     
                     <div class="event">
                         <div class="event-title">🎉 RECEPTION</div>
                         <div class="event-details">
-                            <strong>Date:</strong> Pending xxth, 2026<br>
                             <strong>Time:</strong> Following the ceremony<br>
-                            <strong>Location:</strong> Salón La Capilla
+                            <strong>Location:</strong> La Capilla Ballroom<br>
+                            <strong>Dress Code:</strong> Black Tie 
                         </div>
                     </div>
                     
@@ -194,9 +193,9 @@ function sendGuestEmail($guest_name, $email) {
                         <div class="event-title">🍸 WELCOME PARTY</div>
                         <div class="event-details">
                             <strong>Date:</strong> January 15th, 2026<br>
-                            <strong>Time:</strong> 6:00 - 10:00 P.M.<br>
-                            <strong>Location:</strong> TDB<br>
-                            <strong>Dress Code:</strong> TDB 
+                            <strong>Time:</strong> 6:00 - 10:00 pm<br>
+                            <strong>Location:</strong> Baluarte San Francisco Javier<br>
+                            <strong>Dress Code:</strong> Tropical Chic Cocktail 
                         </div>
                     </div>
                     
@@ -204,9 +203,9 @@ function sendGuestEmail($guest_name, $email) {
                         <div class="event-title">🥐 SUNSET CRUISE</div>
                         <div class="event-details">
                             <strong>Date:</strong> January 17th, 2026<br>
-                            <strong>Time:</strong> 5:00 - 8:00 P.M.<br>
-                            <strong>Location:</strong> TDB<br>
-                            <strong>Dress Code:</strong> BONA VIDA
+                            <strong>Time:</strong> 5:00 - 8:00 pm<br>
+                            <strong>Location:</strong> BONA VIDA<br>
+                            <strong>Dress Code:</strong> Casual White Linens
                         </div>
                     </div>
                 </div>

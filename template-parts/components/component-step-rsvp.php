@@ -27,7 +27,7 @@
                     <div class="rsvp-form-event-details">
                         <p class="fs-6 text-black font-secondary mb-1">January 16th, 2026</p>
                         <p class="fs-6 text-black font-secondary mb-1">Patio Republicano</p>
-                        <p class="fs-6 text-black font-secondary mb-4">5:00 P.M.</p>
+                        <p class="fs-6 text-black font-secondary mb-4">5:00 pm</p>
                     </div>
                     <div id="guest-list-ceremony" class="rsvp-guest-list mt-3">
                         <!-- Se llena dinámicamente con JavaScript -->
@@ -49,7 +49,7 @@
                     <h2 class="fs-xl-3-medium fs-3 text-primary mb-2">RECEPTION TO FOLLOW</h2>
                     <div class="rsvp-form-event-details">
                         <p class="fs-6 text-black font-secondary mb-1">January 16th, 2026</p>
-                        <p class="fs-6 text-black font-secondary mb-1">Salón La Capilla</p>
+                        <p class="fs-6 text-black font-secondary mb-1">La Capilla Ballroom</p>
                         <p class="fs-6 text-black font-secondary mb-1">Following the ceremony</p>
                     </div>
                     <div id="guest-list-reception" class="rsvp-guest-list mt-3">
@@ -72,9 +72,8 @@
                     <h2 class="fs-xl-3-medium fs-3 text-primary mb-2">WELCOME COCKTAIL</h2>
                     <div class="rsvp-form-event-details">
                         <p class="fs-6 text-black font-secondary mb-1">January 15th, 2026</p>
-                        <p class="fs-6 text-black font-secondary mb-1">Pending</p>
-                        <p class="fs-6 text-black font-secondary mb-1">Pending</p>
-                        <p class="fs-6 text-black font-secondary">6:00 - 10:00 P.M.</p>
+                        <p class="fs-6 text-black font-secondary mb-1">Baluarte San Francisco Javier</p>
+                        <p class="fs-6 text-black font-secondary">6:00 - 10:00 pm</p>
                     </div>
                     <div id="guest-list-welcome" class="rsvp-guest-list mt-3">
                         <!-- Se llena dinámicamente con JavaScript -->
@@ -96,9 +95,8 @@
                     <h2 class="fs-xl-3-medium fs-3 text-primary mb-2">SUNSET CRUISE</h2>
                     <div class="rsvp-form-event-details">
                         <p class="fs-6 text-black font-secondary mb-1">January 17th, 2026</p>
-                        <p class="fs-6 text-black font-secondary mb-1">Pending</p>
-                        <p class="fs-6 text-black font-secondary mb-1">Pending</p>
-                        <p class="fs-6 text-black font-secondary">5:00 - 8:00 P.M.</p>
+                        <p class="fs-6 text-black font-secondary mb-1">Bona Vida</p>
+                        <p class="fs-6 text-black font-secondary">5:00 - 8:00 pm</p>
                     </div>
                     <div id="guest-list-brunch" class="rsvp-guest-list mt-3">
                         <!-- Se llena dinámicamente con JavaScript -->

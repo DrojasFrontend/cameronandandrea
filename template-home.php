@@ -104,11 +104,11 @@ get_header();
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">January 15th, 2026</h2>
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">6:00 - 10:00 pm</h2>
         
-                                                            <!-- <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">TDB</p> -->
+                                                            <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 uppercase">BALUARTE <br> SAN FRANCISCO JAVIER</p>
                                                             <!-- <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">TDB</h2> -->
         
                                                             <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 mb-4">Cartagena, Colombia</p>
-                                                            <a href="" class="btn btn-primary border-2 mx-auto mb-4" type="button" data-bs-toggle="modal" data-bs-target="#location">
+                                                            <a href="https://maps.app.goo.gl/xGjbfSPuNPFjQjzo6?g_st=ic" target="blank" class="btn btn-primary border-2 mx-auto mb-4">
                                                                 LOCATION
                                                             </a>
                                                             <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#tropical">
@@ -135,10 +135,10 @@ get_header();
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">5:00 - 8:00 pm</h2>
         
                                                             <!-- <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">TDB</p> -->
-                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">BONA VIDA</h2>
+                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14">BONA VIDA</h2>
         
                                                             <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 mb-4">Cartagena, Colombia</p>
-                                                            <a href class="btn btn-primary border-2 mx-auto mb-4" type="button" data-bs-toggle="modal" data-bs-target="#location">
+                                                            <a href="https://maps.app.goo.gl/nzn4ssqTxmrVqrvD6?g_st=ic" target="blank" class="btn btn-primary border-2 mx-auto mb-4">
                                                                 LOCATION
                                                             </a>
                                                             <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#casualWhite">

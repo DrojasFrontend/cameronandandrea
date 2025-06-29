@@ -577,12 +577,12 @@ function updateEventButtons(eventId) {
         // Restaurar estilos por defecto
         if (btn.classList.contains('rsvp-btn-outline')) {
             btn.style.backgroundColor = 'transparent';
-            btn.style.color = '#767A61';
-            btn.style.borderColor = '#767A61';
+            btn.style.color = '#8B9B68';
+            btn.style.borderColor = '#8B9B68';
         } else {
-            btn.style.backgroundColor = '#767A61';
+            btn.style.backgroundColor = '#8B9B68';
             btn.style.color = '#fff';
-            btn.style.borderColor = '#767A61';
+            btn.style.borderColor = '#8B9B68';
         }
     });
     
@@ -601,14 +601,14 @@ function updateEventButtons(eventId) {
                 // Marcar como activo
                 btn.classList.add('active');
                 btn.style.backgroundColor = '#fff';
-                btn.style.color = '#767A61';
-                btn.style.borderColor = '#767A61';
+                btn.style.color = '#8B9B68';
+                btn.style.borderColor = '#8B9B68';
                 btn.style.opacity = '1';
             } else {
                 // Marcar como inactivo
                 btn.style.backgroundColor = '#fff';
-                btn.style.color = '#767A61';
-                btn.style.borderColor = '#767A61';
+                btn.style.color = '#8B9B68';
+                btn.style.borderColor = '#8B9B68';
                 btn.style.opacity = '0.7';
             }
         });
