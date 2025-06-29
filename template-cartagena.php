@@ -11,7 +11,7 @@ $places = [
     "title" => "Hotels",
     "title_es" => "Hotels",
     "img" => THEME_IMG . 'icons/icon-hotel.svg',
-    "info" => "We welcome you to stay at any of the beautiful hotels or colonial homes in Cartagena has to offer. The bride and groom will be staying at the Charleston Santa Teresa for the guests who would like to join them.",
+    "info" => "We welcome you to stay at any of the beautiful hotels or colonial homes in Cartagena has to offer. The bride and groom will be staying at the <strong>Charleston Santa Teresa</strong> for the guests who would like to join them.",
     "places" => [
         [
             "name" => "Hotel Charleston Santa Teresa",
@@ -595,7 +595,7 @@ $places = [
                             <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">Passports</h2>
                             <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Don't forget your passports! Please double check the expiration date.</p>
                             <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">CheckMig</h2>
-                            <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Please complete the immigration registration form 48 hours before your trip, as the airline requires proof of completion to check-in. Complete the same step to return to the US. Click Here</p>
+                            <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Please complete the immigration registration form 48 hours before your trip, as the airline requires proof of completion to check-in. Complete the same step to return to the US. <a href="https://apps.migracioncolombia.gov.co/pre-registro" style="text-decoration: underline;" target="blank">Click Here</a></p>
                             <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">RAFAEL NUÑEZ - INTERNATIONAL AIRPORT</h2>
                             <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Flight to Cartagena on the Caribbean coast.  Latam, Delta, American Airlines, United, Copa Airlines  and Avianca operate direct flights to the Rafael Nuñez Airport. The airport is a short 10-minutes taxi journey to the old town. There are authorized taxi services 24 hours. The rate to Getsemaní costs about $14.000 cop. To the hotel zone of the Historic Center (Ciudad Amurallada) about $14.000 cop and to the Bocagrande zone it costs $20.000 cop. Normally $1 USD is equivalent to $4.500 cop. </p>
                             <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">SECURITY IN CARTAGENA</h2>

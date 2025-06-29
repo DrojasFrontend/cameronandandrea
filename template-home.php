@@ -38,8 +38,7 @@ get_header();
                                                         <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14">January 16th, 2026</h2>
                                                         <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">5:00 pm</h2>
 
-                                                        <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">CHARLESTON SANTA</p>
-                                                        <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 mb-3">TERESA HOTEL</p>
+                                                        <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 mb-3">CHARLESTON SANTA <br> TERESA HOTEL</p>
 
                                                         <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 mb-5">Cartagena, Colombia</p>
 
