@@ -572,7 +572,8 @@ $places = [
                         <img class="w-100 d-none d-xl-block" src="<?php echo THEME_IMG . 'flower-two.webp'; ?>" alt="cameron-fondo-verde-edit">
                         <img class="flowerTowLeft d-block d-xl-none position-absolute" src="<?php echo THEME_IMG . 'flower-two-mobile-left.webp'; ?>" alt="cameron-fondo-verde-edit">
                         <img class="flowerTowRight d-block d-xl-none position-absolute" src="<?php echo THEME_IMG . 'flower-two-mobile-right.webp'; ?>" alt="cameron-fondo-verde-edit">
-                        <img class="textCartagena" src="<?php echo THEME_IMG . 'text-cartagena.svg'; ?>" alt="cameron-fondo-verde-edit">
+                        <!-- <img class="textCartagena" src="<?php echo THEME_IMG . 'text-cartagena.svg'; ?>" alt="cameron-fondo-verde-edit"> -->
+                        <h2 class="font-aerotis fs-xl-1-medium fs-2-medium text-primary text-center">Cartagena</h2>
                     </div>
                 </div>
             </div>

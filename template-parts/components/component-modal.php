@@ -46,7 +46,7 @@
             <div class="modal-body bg-white text-center position-relative overflow-hidden">
                 <img class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="Home 1">
                 <div class="position-relative p-xl-5 p-2">
-                    <img class="w-100" src="<?php echo THEME_IMG; ?>black-tie.png" alt="cameron-fondo-verde-edit" class="mb-4">
+                    <img class="w-auto" src="<?php echo THEME_IMG; ?>black-tie.png" alt="cameron-fondo-verde-edit" class="mb-4">
                     <p class="fs-xl-7 text-black letter-spacing-xl-2 m-4">BLACK TIE</p>
                     <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#blackTieExamples">
                         VIEW MORE EXAMPLES
@@ -90,7 +90,7 @@
             <div class="modal-body bg-white text-center position-relative overflow-hidden">
                 <img class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="Home 1">
                 <div class="position-relative p-xl-5 p-2">
-                    <img class="w-100" src="<?php echo THEME_IMG; ?>casual-white.png" alt="cameron-fondo-verde-edit" class="">
+                    <img class="w-auto" src="<?php echo THEME_IMG; ?>casual-white.png" alt="cameron-fondo-verde-edit" class="">
                     <p class="fs-xl-7 text-black letter-spacing-xl-2 mb-4">CASUAL WHITE LINENS</p>
                     <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#casualWhiteExamples">
                         VIEW MORE EXAMPLES
@@ -134,7 +134,7 @@
             <div class="modal-body bg-white text-center position-relative overflow-hidden">
                 <img class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="Home 1">
                 <div class="position-relative p-xl-5 p-2">
-                    <img class="w-100" src="<?php echo THEME_IMG; ?>tropical.png" alt="cameron-fondo-verde-edit" class="">
+                    <img class="w-auto" src="<?php echo THEME_IMG; ?>tropical.png" alt="cameron-fondo-verde-edit" class="">
                     <p class="fs-xl-7 text-black letter-spacing-xl-2 mb-4">TROPICAL CHIC COCKTAIL</p>
                     <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#tropicalExample">
                         VIEW MORE EXAMPLES
@@ -176,7 +176,7 @@
             </div>
             <div class="modal-body bg-white text-center position-relative overflow-hidden">
                 <img class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="Home 1">
-                <img class="w-100 position-relative" src="<?php echo THEME_IMG; ?>qr.jpeg" alt="">
+                <img class="w-auto position-relative" src="<?php echo THEME_IMG; ?>qr.jpeg" alt="">
             </div>
         </div>
     </div>

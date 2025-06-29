@@ -29,8 +29,9 @@ get_header();
                                             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center pt-5 mt-5 z-2">
                                                 <div class="pt-xl-5">
                                                     <div class="pt-xl-5 text-center">
-                                                        <img width="277" height="106" class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-wedding.svg" alt="Text wedding">
-                                                        <img width="158" class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-wedding-mobile.svg" alt="Text wedding">
+                                                        <!-- <img width="277" height="106" class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-wedding.svg" alt="Text wedding"> -->
+                                                        <!-- <img width="158" class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-wedding-mobile.svg" alt="Text wedding"> -->
+                                                         <h2 class="font-aerotis fs-xl-1-1 fs-2-medium text-primary">Wedding</h2>
                                                         <div class="line line--small mb-5 d-none d-xl-block" style="margin-top: -10px;"></div>
                                                         <div class="line line--small mb-5 d-block d-xl-none"></div>
                                                         <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">FRIDAY,</p>
@@ -49,8 +50,9 @@ get_header();
                                                         <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 pb-xl-5">La Capilla Ballroom</h2>
 
                                                         <div class="pt-4">
-                                                            <img width="277" height="106" class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-dress-code.svg" alt="Text wedding">
-                                                            <img width="140" class="d-block d-xl-none mx-auto mb-3" src="<?php echo THEME_IMG; ?>text-dress-code-mobile.svg" alt="Text wedding">
+                                                            <!-- <img width="277" height="106" class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-dress-code.svg" alt="Text wedding"> -->
+                                                            <!-- <img width="140" class="d-block d-xl-none mx-auto mb-3" src="<?php echo THEME_IMG; ?>text-dress-code-mobile.svg" alt="Text wedding"> -->
+                                                            <h2 class="font-aerotis fs-xl-2 fs-3 text-primary">Dress code</h2>
                                                             <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#blackTie">
                                                                 BLACK TIE
                                                             </button>
@@ -83,8 +85,9 @@ get_header();
                             <div class="pt-5 text-center">
                                 <img class="customSectionEvents__bckg position-absolute top-0 start-0 object-fit-cover w-100 h-100" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="cameron-fondo-verde-edit">
                                 <div class="position-relative pt-5">
-                                    <img width="242" height="122" class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-events.svg" alt="Text Event">
-                                    <img width="180" class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-events.svg" alt="Text Event">
+                                    <!-- <img width="242" height="122" class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-events.svg" alt="Text Event"> -->
+                                    <!-- <img width="180" class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-events.svg" alt="Text Event"> -->
+                                    <h2 class="font-aerotis fs-xl-1-1 fs-2-medium text-primary">Events</h2>
                                     <div class="line line--small mb-5 d-none d-xl-block" style="margin-top: -20px;"></div>
                                     <div class="line line--small mb-5 d-block d-xl-none" style="margin-top: 0px;"></div>
                                     <div class="py-5 mt-5">
@@ -150,8 +153,9 @@ get_header();
                                         <div class="container pt-5">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <img class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-welcome.svg" alt="cameron-fondo-verde-edit">
-                                                    <img class="d-block d-xl-none mx-auto mb-3" src="<?php echo THEME_IMG; ?>text-welcome-mobile.svg" alt="cameron-fondo-verde-edit">
+                                                    <!-- <img class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-welcome.svg" alt="cameron-fondo-verde-edit"> -->
+                                                    <!-- <img class="d-block d-xl-none mx-auto mb-3" src="<?php echo THEME_IMG; ?>text-welcome-mobile.svg" alt="cameron-fondo-verde-edit"> -->
+                                                    <h2 class="font-aerotis fs-xl-1-1 fs-2-medium text-primary">Welcome</h2>
                                                     <span class="line line--small mt-3 mb-xl-5 mb-3"></span>
                                                     <div class="col-12 col-xl-7 mx-auto px-4">
                                                         <p class="fs-xl-5 text-black letter-spacing-xl-24 text-center">
@@ -213,8 +217,9 @@ get_header();
             <div class="position-relative text-center pb-xl-5 pt-xl-0 pt-5">
                 <div class="container">
                     <img class="d-block mx-auto w-100" src="<?php echo THEME_IMG; ?>flower-two.webp" alt="">
-                    <img class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-love.svg" alt="">
-                    <img class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-love-mobile.svg" alt="">
+                    <!-- <img class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-love.svg" alt=""> -->
+                    <!-- <img class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-love-mobile.svg" alt=""> -->
+                    <h2 class="font-aerotis fs-xl-1-1 fs-2-medium text-primary">Save <span class="fs-4" style="font-family: var(--bs-font-family-base);">THE</span> Weekend</h2>
                     <div>
                         <div id="mi-countdown" data-countdown="2026-01-16 14:00:00"></div>
                     </div>
@@ -233,8 +238,9 @@ get_header();
                             <div class="pt-xl-5 mt-xl-5" id="cartagena">
                                 <div class="customSectionCartagena position-relative p-xl-5 p-3">
                                     <div class="col-12 col-xl-10 mx-auto">
-                                        <img class="d-none d-xl-block mx-auto mb-5" src="<?php echo THEME_IMG; ?>text-cartagena.svg" alt="">
-                                        <img class="d-block d-xl-none mx-auto mb-5" src="<?php echo THEME_IMG; ?>text-cartagena-mobile.svg" alt="">
+                                        <!-- <img class="d-none d-xl-block mx-auto mb-5" src="<?php echo THEME_IMG; ?>text-cartagena.svg" alt=""> -->
+                                        <!-- <img class="d-block d-xl-none mx-auto mb-5" src="<?php echo THEME_IMG; ?>text-cartagena-mobile.svg" alt=""> -->
+                                        <h2 class="font-aerotis fs-xl-1-medium fs-2-medium text-primary text-center mb-xl-5 mb-3">Cartagena</h2>
                                         <p class="fs-xl-5 text-black letter-spacing-xl-24 text-center mb-4">
                                             We are thrilled to be hosting our wedding in Cartagena, Colombia's coastal gem. This city, designated as a UNESCO world heritage site, stands as one of South America's most significant cultural treasures. The walls of Cartagena de Indias grace the historical center, known as "the walled city," where you can discover squares, cobblestone streets, and exquisite, vibrant colonial buildings.
                                         </p>
@@ -299,8 +305,9 @@ get_header();
                                                 </a>
                                             </li>
                                         </ul>
-                                        <img class="d-xl-block d-none mx-auto" src="<?php echo THEME_IMG; ?>text-places.svg" alt="">
-                                        <img width="300" class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-places.svg" alt="">
+                                        <!-- <img class="d-xl-block d-none mx-auto" src="<?php echo THEME_IMG; ?>text-places.svg" alt=""> -->
+                                        <!-- <img width="300" class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-places.svg" alt=""> -->
+                                        <h2 class="font-aerotis fs-xl-1-1 fs-3-medium text-primary text-center mb-xl-5 mb-3">Places of Interest</h2>
                                     </div>
                                 </div>
                             </div>
@@ -336,8 +343,9 @@ get_header();
                         <button class="btn btn-secondary border-0 mx-auto rsvp-open-btn position-relative z-1 mb-xl-4 mb-5" type="button">
                             R.S.V.P.
                         </button>
-                        <img class="d-xl-block d-none mx-auto" src="<?php echo THEME_IMG; ?>text-registre.svg" alt="">
-                        <img width="150" class="d-xl-none d-block mx-auto" src="<?php echo THEME_IMG; ?>text-registre.svg" alt="">
+                        <!-- <img class="d-xl-block d-none mx-auto" src="<?php echo THEME_IMG; ?>text-registre.svg" alt=""> -->
+                        <!-- <img width="150" class="d-xl-none d-block mx-auto" src="<?php echo THEME_IMG; ?>text-registre.svg" alt=""> -->
+                        <h2 class="font-aerotis fs-xl-1-1 fs-2-medium text-primary text-center mb-2">Registry</h2>
                         <div class="line line--small mb-4"></div>
                         <div class="row">
                             <div class="col-12 col-xl-8 mx-auto px-xl-4 mb-xl-4 mb-3">
@@ -356,11 +364,12 @@ get_header();
     </section>
 
     <section class="customSectionBanner bg-primary p-xl-4 pb-xl-5 p-4">
-        <div class="container">
+        <div class="container gx-0">
             <div class="row">
-                <div class="col-12 text-center">
-                    <img class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-celebrate.png" alt="">
-                    <img width="300" class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-celebrate.png" alt="">
+                <div class="col-12 text-center gx-0">
+                    <!-- <img class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-celebrate.png" alt=""> -->
+                    <!-- <img width="300" class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-celebrate.png" alt=""> -->
+                     <h2 class="fs-xl-5 fs-7 text-white">WE CAN'T WAIT TO<span class="font-aerotis fs-xl-2 fs-5 text-white"> Celebrate </span> WITH YOU!</h2>
                 </div>
             </div>
         </div>
