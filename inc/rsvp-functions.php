@@ -31,10 +31,10 @@ function sendAdminEmail($guest_name, $guests, $allergies, $email) {
     
     // Generate detailed list by event
     $event_names = [
-        'ceremony' => 'CEREMONY (January 16th, 5:00 PM)',
+        'ceremony' => 'CEREMONY (January 16th, 5:00 pm)',
         'reception' => 'RECEPTION (January 13th, Following the ceremony)',
-        'welcome' => 'WELCOME PARTY (January 15th, 6:00 - 10:00 PM)',
-        'brunch' => 'SUNSET CRUISE (January 17th, 5:00 - 8:00 PM)'
+        'welcome' => 'WELCOME PARTY (January 15th, 6:00 - 10:00 pm)',
+        'brunch' => 'SUNSET CRUISE (January 17th, 5:00 - 8:00 pm)'
     ];
     
     $total_accepts = 0;

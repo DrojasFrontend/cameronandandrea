@@ -47,7 +47,7 @@
                 <img class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="Home 1">
                 <div class="position-relative p-xl-5 p-2">
                     <img class="w-auto" src="<?php echo THEME_IMG; ?>black-tie.png" alt="cameron-fondo-verde-edit" class="mb-4">
-                    <p class="fs-xl-7 text-black letter-spacing-xl-2 m-4">BLACK TIE</p>
+                    <p class="fs-xl-7 text-black letter-spacing-xl-2 m-4 uppercase">BLACK TIE</p>
                     <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#blackTieExamples">
                         VIEW MORE EXAMPLES
                     </button>
@@ -68,7 +68,7 @@
             <div class="modal-body bg-white text-center position-relative overflow-hidden">
                 <img class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="Home 1">
                 <div class="position-relative p-xl-5 p-2">
-                    <p class="fs-xl-7 text-black letter-spacing-xl-2">TROPICAL ELEGANCE</p>
+                    <p class="fs-xl-7 text-black letter-spacing-xl-2 uppercase">TROPICAL ELEGANCE</p>
                     <img class="w-100 my-4" src="<?php echo THEME_IMG; ?>black-tie-example.png" alt="cameron-fondo-verde-edit" class="mb-4">
                     <p class="fs-xl-7 text-black text-center">Men: Black tie / Women: Evening gown dress</p>
                     <p class="fs-xl-7 text-black text-center">Hombres: Smoquin  / Mujeres: Vestido largo elegante</p>
@@ -91,7 +91,7 @@
                 <img class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="Home 1">
                 <div class="position-relative p-xl-5 p-2">
                     <img class="w-auto" src="<?php echo THEME_IMG; ?>casual-white.png" alt="cameron-fondo-verde-edit" class="">
-                    <p class="fs-xl-7 text-black letter-spacing-xl-2 mb-4">CASUAL WHITE LINENS</p>
+                    <p class="fs-xl-7 text-black letter-spacing-xl-2 mb-4 uppercase">CASUAL WHITE LINENS</p>
                     <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#casualWhiteExamples">
                         VIEW MORE EXAMPLES
                     </button>
@@ -112,7 +112,7 @@
             <div class="modal-body bg-white text-center position-relative overflow-hidden">
                 <img class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="Home 1">
                 <div class="position-relative p-xl-5 p-2">
-                    <p class="fs-xl-7 text-black letter-spacing-xl-2">CASUAL WHITE LINENS</p>
+                    <p class="fs-xl-7 text-black letter-spacing-xl-2 uppercase">CASUAL WHITE LINENS</p>
                     <img class="w-100 my-4" src="<?php echo THEME_IMG; ?>casual-withe-example.png" alt="cameron-fondo-verde-edit" class="mb-4">
                     <p class="fs-xl-7 text-black text-center">Men: Pants and shirt - Jacket optional / Women: Formal elegant dress</p>
                     <p class="fs-xl-7 text-black text-center">Hombres: Pantalón y camisa - Saco opcional / Mujeres: Vestido formal elegante</p>
@@ -135,7 +135,7 @@
                 <img class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="Home 1">
                 <div class="position-relative p-xl-5 p-2">
                     <img class="w-auto" src="<?php echo THEME_IMG; ?>tropical.png" alt="cameron-fondo-verde-edit" class="">
-                    <p class="fs-xl-7 text-black letter-spacing-xl-2 mb-4">TROPICAL CHIC COCKTAIL</p>
+                    <p class="fs-xl-7 text-black letter-spacing-xl-2 mb-4 uppercase">TROPICAL CHIC COCKTAIL</p>
                     <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#tropicalExample">
                         VIEW MORE EXAMPLES
                     </button>
@@ -156,7 +156,7 @@
             <div class="modal-body bg-white text-center position-relative overflow-hidden">
                 <img class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="Home 1">
                 <div class="position-relative p-xl-5 p-2">
-                    <p class="fs-xl-7 text-black letter-spacing-xl-2">TROPICAL CHIC COCKTAIL</p>
+                    <p class="fs-xl-7 text-black letter-spacing-xl-2 uppercase">TROPICAL CHIC COCKTAIL</p>
                     <img class="w-100 my-4" src="<?php echo THEME_IMG; ?>tropical-example.png" alt="cameron-fondo-verde-edit" class="mb-4">
                     <p class="fs-p-big text-black text-center">Men: Pants and shirt - Jacket optional / Women: Flowy dress - vibrant colors</p>
                     <p class="fs-p-big text-black text-center">Hombres: Pantalón y camisa - Saco opcional / Mujeres: Vestido fluido - colores vibrantes</p>

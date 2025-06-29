@@ -36,7 +36,7 @@ get_header();
                                                         <div class="line line--small mb-5 d-block d-xl-none"></div>
                                                         <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">FRIDAY,</p>
                                                         <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14">January 16th, 2026</h2>
-                                                        <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">5:00 PM</h2>
+                                                        <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">5:00 pm</h2>
 
                                                         <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">CHARLESTON SANTA</p>
                                                         <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 mb-3">TERESA HOTEL</p>
@@ -103,7 +103,7 @@ get_header();
         
                                                             <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">THURSDAY,</p>
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">January 15th, 2026</h2>
-                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">6:00 - 10:00 PM</h2>
+                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">6:00 - 10:00 pm</h2>
         
                                                             <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">TDB</p>
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">TDB</h2>
@@ -133,7 +133,7 @@ get_header();
         
                                                             <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">SATURDAY,</p>
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">January 17th, 2026</h2>
-                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">5:00 - 8:00 PM</h2>
+                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">5:00 - 8:00 pm</h2>
         
                                                             <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">TDB</p>
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">BONA VIDA</h2>
