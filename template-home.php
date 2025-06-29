@@ -348,7 +348,9 @@ get_header();
                                 </p>
                             </div>
                         </div>
-                        <a href="" class="btn btn-primary">HONEYMOON</a>
+                        <button class="btn btn-primary border-2 mx-auto position-relative z-1" type="button" data-bs-toggle="modal" data-bs-target="#qr">
+                            DRESS CODE
+                        </button>
                     </div>
                 </div>
             </div>

@@ -165,3 +165,19 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="qr" tabindex="-1" role="dialog" aria-labelledby="qr" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header p-1">
+                <button type="button" class="btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body bg-white text-center position-relative overflow-hidden">
+                <img class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="Home 1">
+                <img class="w-100 position-relative" src="<?php echo THEME_IMG; ?>qr.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
