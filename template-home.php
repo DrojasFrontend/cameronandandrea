@@ -104,14 +104,14 @@ get_header();
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">January 15th, 2026</h2>
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">6:00 - 10:00 pm</h2>
         
-                                                            <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">TDB</p>
-                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">TDB</h2>
+                                                            <!-- <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">TDB</p> -->
+                                                            <!-- <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">TDB</h2> -->
         
                                                             <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 mb-4">Cartagena, Colombia</p>
                                                             <a href="" class="btn btn-primary border-2 mx-auto mb-4" type="button" data-bs-toggle="modal" data-bs-target="#location">
                                                                 LOCATION
                                                             </a>
-                                                            <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#casualWhite">
+                                                            <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#tropical">
                                                                 DRESS CODE
                                                             </button>
                                                         </div>
@@ -134,14 +134,14 @@ get_header();
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">January 17th, 2026</h2>
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">5:00 - 8:00 pm</h2>
         
-                                                            <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">TDB</p>
+                                                            <!-- <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">TDB</p> -->
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">BONA VIDA</h2>
         
                                                             <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 mb-4">Cartagena, Colombia</p>
                                                             <a href class="btn btn-primary border-2 mx-auto mb-4" type="button" data-bs-toggle="modal" data-bs-target="#location">
                                                                 LOCATION
                                                             </a>
-                                                            <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#tropical">
+                                                            <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#casualWhite">
                                                                 DRESS CODE
                                                             </button>
                                                         </div>
@@ -339,6 +339,12 @@ get_header();
                     <div class="d-flex flex-column justify-content-start align-items-center bg-primary-900 p-5 text-center shadow-1">
                         <h2 class="fs-xl-1-medium fs-2 text-primary letter-spacing-xl-20 letter-spacing-96">R.S.V.P.</h2>
                         <p class="fs-p-big text-black letter-spacing-xl-36 mb-5">Kindly respond by <br class="d-block d-xl-none"> OCTOBER 15th, 2025</p>
+                        <p class="fs-xl-5 text-black letter-spacing-xl-1 text-center mb-1 fw-bold">
+                            Please enter below your First Name and your Last Name.
+                        </p>
+                        <p class="fs-xl-5 text-black letter-spacing-xl-1 text-center mb-5">
+                        If you search your name and it does not appear, your name may be associated with your family or group. Please click the name that populates and confirm your name is assigned to that group.
+                        </p>
                         <button class="btn btn-secondary border-0 mx-auto rsvp-open-btn position-relative z-1 mb-xl-4 mb-5" type="button">
                             R.S.V.P.
                         </button>
