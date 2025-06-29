@@ -37,8 +37,8 @@ get_header();
                                                         <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14">January 16th, 2026</h2>
                                                         <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">5:00 PM</h2>
 
-                                                        <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">HOTEL CHARLESTON</p>
-                                                        <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 mb-3">SANTA TERESA</p>
+                                                        <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">CHARLESTON SANTA</p>
+                                                        <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 mb-3">TERESA HOTEL</p>
 
                                                         <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 mb-5">Cartagena, Colombia</p>
 
@@ -46,7 +46,7 @@ get_header();
                                                         <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">Patio Republicano</h2>
 
                                                         <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">RECEPTION TO FOLLOW</p>
-                                                        <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 pb-xl-5">Salón La Capilla</h2>
+                                                        <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 pb-xl-5">La Capilla Ballroom</h2>
 
                                                         <div class="pt-4">
                                                             <img width="277" height="106" class="d-none d-xl-block" src="<?php echo THEME_IMG; ?>text-dress-code.svg" alt="Text wedding">
@@ -301,6 +301,8 @@ get_header();
                                                 </a>
                                             </li>
                                         </ul>
+                                        <img class="d-xl-block d-none mx-auto" src="<?php echo THEME_IMG; ?>text-places.svg" alt="">
+                                        <img width="300" class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-places.svg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -330,12 +332,23 @@ get_header();
                 <div class="customSectionRSVP__content col-12 col-xl-8 mx-auto position-relative">
                     <img class="position-absolute rsvpFlowerLeft" src="<?php echo THEME_IMG; ?>cameron-flores-left.webp" alt="">
                     <img class="position-absolute rsvpFlowerRight" src="<?php echo THEME_IMG; ?>cameron-flores-right.webp" alt="">
-                    <div class="d-flex flex-column justify-content-center align-items-center bg-primary-900 p-5 text-center shadow-1">
+                    <div class="d-flex flex-column justify-content-start align-items-center bg-primary-900 p-5 text-center shadow-1">
                         <h2 class="fs-xl-1-medium fs-2 text-primary letter-spacing-xl-20 letter-spacing-96">R.S.V.P.</h2>
-                        <p class="fs-p-big text-black letter-spacing-xl-36 mb-5">Kindly respond by <br class="d-block d-xl-none"> NOVEMBER 16th, 2025</p>
-                        <button class="btn btn-secondary border-0 mx-auto rsvp-open-btn position-relative z-1" type="button">
+                        <p class="fs-p-big text-black letter-spacing-xl-36 mb-5">Kindly respond by <br class="d-block d-xl-none"> OCTOBER 15th, 2025</p>
+                        <button class="btn btn-secondary border-0 mx-auto rsvp-open-btn position-relative z-1 mb-xl-0 mb-5" type="button">
                             R.S.V.P.
                         </button>
+                        <img class="d-xl-block d-none mx-auto" src="<?php echo THEME_IMG; ?>text-registre.svg" alt="">
+                        <img width="150" class="d-xl-none d-block mx-auto" src="<?php echo THEME_IMG; ?>text-registre.svg" alt="">
+                        <div class="line line--small mb-4"></div>
+                        <div class="row">
+                            <div class="col-12 col-xl-8 mx-auto px-xl-4 mb-xl-4 mb-3">
+                                <p class="fs-xl-5 text-black letter-spacing-xl-1 text-center">
+                                    Your presence at our wedding means more to us than any present. Should you wish to honor us with a gift, a contribution towards our honeymoon fund would be sincerely appreciated.
+                                </p>
+                            </div>
+                        </div>
+                        <a href="" class="btn btn-primary">HONEYMOON</a>
                     </div>
                 </div>
             </div>

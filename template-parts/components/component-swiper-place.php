@@ -41,9 +41,9 @@ $placesCartagena = [
                 <div class="col-11 mx-auto">
                     <!-- <p class="position-relative fs-xl-1-medium fs-2 text-center text-white-100 letter-spacing-xl-14 letter-spacing-64 mt-xl-0 mt-5 mb-3">PLACES <br class="d-xl-none"> TO VISIT</p> -->
                     <div class="customSectionPlaces__swiper">
-                        <div class="bg-yellow-200 p-3 pb-4">
+                        <!-- <div class="bg-yellow-200 p-3 pb-4">
                             <h2 class="fs-xl-1-medium fs-2 text-primary text-center letter-spacing-xl-14 letter-spacing-64 mt-xl-0 mt-3 mb-3">PLACES <br class="d-xl-none"> TO VISIT</h2>
-                        </div>
+                        </div> -->
                         <div class="swiper placeSwiper">
                             <div class="swiper-wrapper">
                                 <?php if (count($placesCartagena) > 0) { ?>
