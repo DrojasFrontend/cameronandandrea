@@ -176,7 +176,7 @@
             </div>
             <div class="modal-body bg-white text-center position-relative overflow-hidden">
                 <img class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" src="<?php echo THEME_IMG; ?>cameron-fondo-verde-edit.png" alt="Home 1">
-                <img class="w-auto position-relative" src="<?php echo THEME_IMG; ?>qr.jpeg" alt="">
+                <img class="w-100 position-relative" src="<?php echo THEME_IMG; ?>qr.jpeg" alt="">
             </div>
         </div>
     </div>
