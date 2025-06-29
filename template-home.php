@@ -95,8 +95,7 @@ get_header();
                                                         <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" src="<?php echo THEME_IMG; ?>box.webp" alt="cameron-event-1">
                                                         <div class="position-relative p-5">
                                                             <img src="<?php echo THEME_IMG; ?>copa.webp" class="mt-img" alt="Copa">
-                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14">WELCOME</h2>
-                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">COCKTAIL</h2>
+                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">WELCOME <br> COCKTAIL</h2>
                                                             <span class="line line--small mt-3 mb-5"></span>
         
                                                             <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">THURSDAY,</p>
@@ -124,8 +123,7 @@ get_header();
                                                         <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" src="<?php echo THEME_IMG; ?>box.webp" alt="cameron-event-1">
                                                         <div class="position-relative p-5">
                                                             <img src="<?php echo THEME_IMG; ?>barco.png" class="mt-img" alt="Copa">
-                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14">SUNSET</h2>
-                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">CRUISE</h2>
+                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">SUNSET <br> CRUISE</h2>
                                                             <div class="col-2 mx-auto">
                                                                 <span class="line line-small mt-3 mb-5"></span>
                                                             </div>

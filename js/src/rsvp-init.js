@@ -178,8 +178,14 @@ export function initRSVPForm() {
         console.warn('⚠️ Botón de cerrar no encontrado');
     }
     
-    // Búsqueda con Enter en el campo
+    // Búsqueda automática al escribir y con Enter
     if (searchInput) {
+        // Búsqueda automática al escribir (input event)
+        searchInput.addEventListener('input', function(e) {
+            searchGuests();
+        });
+        
+        // Búsqueda con Enter en el campo
         searchInput.addEventListener('keypress', function(e) {
             if (e.key === 'Enter' || e.keyCode === 13) {
                 e.preventDefault();
@@ -324,13 +330,13 @@ function showStep(step) {
     }
 }
 
-// Búsqueda de invitados
+// Búsqueda automática de invitados
 function searchGuests() {
     const searchInput = document.getElementById('guest-search');
     const searchResults = document.getElementById('search-results');
     const query = searchInput.value.toLowerCase().trim();
     
-    
+    // Ocultar resultados si hay menos de 3 caracteres
     if (query.length < 3) {
         searchResults.style.display = 'none';
         return;
@@ -386,7 +392,7 @@ function searchGuests() {
     // Combinar resultados por prioridad y limitar a 6 resultados máximo
     const matches = [...exactMatches, ...startsWithMatches, ...containsMatches].slice(0, 6);
     
-    
+    // Mostrar resultados automáticamente
     if (matches.length > 0) {
         searchResults.innerHTML = matches.map(name => 
             `<div class="rsvp-search-item cursor-pointer" onclick="selectGuest('${name}')">${name}</div>`
