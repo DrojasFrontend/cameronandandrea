@@ -18,7 +18,7 @@ get_header();
                     <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" src="<?php echo THEME_IMG; ?>bg-cameron.png" alt="Bg cameron">
                     <div class="position-relative w-100 h-100 d-flex justify-content-center align-items-start z-1 pt-5 mt-5">
                         <div class="pt-xl-5">
-                            <img class="d-none d-xl-block" src="<?php echo THEME_IMG; ?>main-logo.png" alt="Main logo">
+                            <img class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>main-logo.png" alt="Main logo">
                             <img class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>main-logo-mobile.png" alt="Main logo">
                             <div class="pt-xl-5">
                                 <div class="pt-xl-5">
@@ -29,7 +29,7 @@ get_header();
                                             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center pt-5 mt-5 z-2">
                                                 <div class="pt-xl-5">
                                                     <div class="pt-xl-5 text-center">
-                                                        <img width="277" height="106" class="d-none d-xl-block" src="<?php echo THEME_IMG; ?>text-wedding.svg" alt="Text wedding">
+                                                        <img width="277" height="106" class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-wedding.svg" alt="Text wedding">
                                                         <img width="158" class="d-block d-xl-none mx-auto" src="<?php echo THEME_IMG; ?>text-wedding-mobile.svg" alt="Text wedding">
                                                         <div class="line line--small mb-5 d-none d-xl-block" style="margin-top: -10px;"></div>
                                                         <div class="line line--small mb-5 d-block d-xl-none"></div>
@@ -49,7 +49,7 @@ get_header();
                                                         <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 pb-xl-5">La Capilla Ballroom</h2>
 
                                                         <div class="pt-4">
-                                                            <img width="277" height="106" class="d-none d-xl-block" src="<?php echo THEME_IMG; ?>text-dress-code.svg" alt="Text wedding">
+                                                            <img width="277" height="106" class="d-none d-xl-block mx-auto" src="<?php echo THEME_IMG; ?>text-dress-code.svg" alt="Text wedding">
                                                             <img width="140" class="d-block d-xl-none mx-auto mb-3" src="<?php echo THEME_IMG; ?>text-dress-code-mobile.svg" alt="Text wedding">
                                                             <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#blackTie">
                                                                 BLACK TIE
