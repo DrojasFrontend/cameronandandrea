@@ -335,7 +335,7 @@ get_header();
                     <div class="d-flex flex-column justify-content-start align-items-center bg-primary-900 p-5 text-center shadow-1">
                         <h2 class="fs-xl-1-medium fs-2 text-primary letter-spacing-xl-20 letter-spacing-96">R.S.V.P.</h2>
                         <p class="fs-p-big text-black letter-spacing-xl-36 mb-5">Kindly respond by <br class="d-block d-xl-none"> OCTOBER 15th, 2025</p>
-                        <button class="btn btn-secondary border-0 mx-auto rsvp-open-btn position-relative z-1 mb-xl-0 mb-5" type="button">
+                        <button class="btn btn-secondary border-0 mx-auto rsvp-open-btn position-relative z-1 mb-xl-4 mb-5" type="button">
                             R.S.V.P.
                         </button>
                         <img class="d-xl-block d-none mx-auto" src="<?php echo THEME_IMG; ?>text-registre.svg" alt="">
