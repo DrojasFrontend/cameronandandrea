@@ -71,7 +71,6 @@
                     <p class="fs-xl-7 text-black letter-spacing-xl-2 uppercase">TROPICAL ELEGANCE</p>
                     <img class="w-100 my-4" src="<?php echo THEME_IMG; ?>black-tie-example.png" alt="cameron-fondo-verde-edit" class="mb-4">
                     <p class="fs-xl-7 text-black text-center">Men: Black tie / Women: Evening gown dress</p>
-                    <p class="fs-xl-7 text-black text-center">Hombres: Smoquin  / Mujeres: Vestido largo elegante</p>
                 </div>
             </div>
         </div>
@@ -115,7 +114,6 @@
                     <p class="fs-xl-7 text-black letter-spacing-xl-2 uppercase">CASUAL WHITE LINENS</p>
                     <img class="w-100 my-4" src="<?php echo THEME_IMG; ?>casual-withe-example.png" alt="cameron-fondo-verde-edit" class="mb-4">
                     <p class="fs-xl-7 text-black text-center">Men: Pants and shirt - Jacket optional / Women: Formal elegant dress</p>
-                    <p class="fs-xl-7 text-black text-center">Hombres: Pantalón y camisa - Saco opcional / Mujeres: Vestido formal elegante</p>
                 </div>
             </div>
         </div>
@@ -159,7 +157,6 @@
                     <p class="fs-xl-7 text-black letter-spacing-xl-2 uppercase">TROPICAL CHIC COCKTAIL</p>
                     <img class="w-100 my-4" src="<?php echo THEME_IMG; ?>tropical-example.png" alt="cameron-fondo-verde-edit" class="mb-4">
                     <p class="fs-p-big text-black text-center">Men: Pants and shirt - Jacket optional / Women: Flowy dress - vibrant colors</p>
-                    <p class="fs-p-big text-black text-center">Hombres: Pantalón y camisa - Saco opcional / Mujeres: Vestido fluido - colores vibrantes</p>
                 </div>
             </div>
         </div>
