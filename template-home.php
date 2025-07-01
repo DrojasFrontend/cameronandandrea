@@ -138,7 +138,7 @@ get_header();
                                                             <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14 mb-4">5:00 - 8:00 pm</h2>
         
                                                             <!-- <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14">TDB</p> -->
-                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14">BONA VIDA</h2>
+                                                            <h2 class="fs-xl-3-small fs-5 text-primary letter-spacing-xl-36 letter-spacing-14">BONAVIDA</h2>
         
                                                             <p class="fs-xl-5 fs-7 text-primary letter-spacing-xl-24 letter-spacing-14 mb-4">Cartagena, Colombia</p>
                                                             <a href="https://maps.app.goo.gl/nzn4ssqTxmrVqrvD6?g_st=ic" target="blank" class="btn btn-primary border-2 mx-auto mb-4">

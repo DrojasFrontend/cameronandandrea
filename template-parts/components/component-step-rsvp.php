@@ -95,7 +95,7 @@
                     <h2 class="fs-xl-3-medium fs-3 text-primary mb-2">SUNSET CRUISE</h2>
                     <div class="rsvp-form-event-details">
                         <p class="fs-6 text-black font-secondary mb-1">January 17th, 2026</p>
-                        <p class="fs-6 text-black font-secondary mb-1">Bona Vida</p>
+                        <p class="fs-6 text-black font-secondary mb-1">Bonavida</p>
                         <p class="fs-6 text-black font-secondary">5:00 - 8:00 pm</p>
                     </div>
                     <div id="guest-list-brunch" class="rsvp-guest-list mt-3">
